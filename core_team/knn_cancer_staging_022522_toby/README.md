@@ -5,7 +5,7 @@ Cancer staging information :
 
 Procedure:
 1. Retrieve mRNA expression profile, and TMN cancer staging data.
-2. [Cleaning and merging](./sclc_ucologne_2015_data_cleaning.R), removing samples without staging data, and genes without mRNA expression measurements. 
+2. [Cleaning and merging](./sclc_ucologne_2015_data_cleaning.Rmd), removing samples without staging data, and genes without mRNA expression measurements. 
 3. Cleaned data saved as [mRNA_levels_cancer_stage.txt](./mRNA_levels_cancer_stage.txt).
 4. Basic KNN classifier training and testing in [Classification_for_TMN_stages.ipynb](./Classification_for_TMN_stages.ipynb)
 
