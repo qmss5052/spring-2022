@@ -1,0 +1,125 @@
+#Patient Identifier	Diagnosis Age	Sex	Ethnicity Category	N Stage	M Stage	UICC Tumor Stage	Smoker	Smoking History	Previous Treatment	First Pathologic Diagnosis Biospecimen Acquisition Method Type	Neoadjuvant Chemotherapy	Chemotherapy	Radiation Therapy	Overall Survival Status	Progress Free Survival (Months)	Overall Survival (Months)
+#Identifier to uniquely specify a patient.	Age at which a condition or disease was first diagnosed.	Sex	The text for reporting information about ethnicity.	N Stage	M Stage	UICC Tumor Stage	Indicates if person is a smoker.	Smoking History	Previous treatment.	Text name of the procedure to secure the tissue used for the original pathologic diagnosis.	Neoadjuvant Chemotherapy.	Chemotherapy.	Radiation Therapy.	Overall patient survival status.	Progress Free Survival (Months)	Overall survival in months since initial diagonosis.
+#STRING	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	NUMBER
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	9	1	1
+PATIENT_ID	AGE	SEX	ETHNICITY	N_STAGE	M_STAGE	UICC_TUMOR_STAGE	SMOKER	SMOKING_HISTORY	PREVIOUS_TREATMENT	METHOD_OF_SAMPLE_PROCUREMENT	NEOADJ_CHEMO	CHEMOTHERAPY	RADIATION_THERAPY	OS_STATUS	PFS_MONTHS	OS_MONTHS
+sclc_ucologne_2015_S00022	47.0	Male		2	0	IIIa	Current		Untreated	Surgical Resection	No	Yes	Yes	1:DECEASED	36.0	38.0
+sclc_ucologne_2015_S00035	65.0	Female		1	1	IV	Former		Untreated	Surgical Resection	No	Yes	No	1:DECEASED		12.0
+sclc_ucologne_2015_S00050	47.0	Male		0	0	Ia	Current		Untreated	Surgical Resection	No	Yes	Yes	1:DECEASED	23.0	42.0
+sclc_ucologne_2015_S00213	65.0	Male		2	0	IIIa			Untreated	Surgical Resection				1:DECEASED		13.0
+sclc_ucologne_2015_S00339	61.0	Male		2	0	IIIa			Untreated	Surgical Resection						
+sclc_ucologne_2015_S00356	54.0	Female		2	0	IIIa	Current		Untreated	Surgical Resection	No	Yes	Yes	1:DECEASED		33.0
+sclc_ucologne_2015_S00472	56.0	Male		2	0	IIIa	Current		Untreated	Surgical Resection	No	Yes	Yes	1:DECEASED		12.0
+sclc_ucologne_2015_S00501	55.0	Female		2	1	IV	Current		Untreated	Surgical Resection	No	Yes	Yes	1:DECEASED	40.0	72.0
+sclc_ucologne_2015_S00539	66.0	Female		3	1	IV	Current		Untreated	Autopsy	No	No	No	1:DECEASED		0.0
+sclc_ucologne_2015_S00825	59.0	Male	Caucasian	2	0	IIIa	Current	Smoking Pack years:50	Untreated	Surgical Resection	No	Yes	Yes	1:DECEASED	14.0	25.0
+sclc_ucologne_2015_S00827	73.0	Male	Caucasian	1	0	IIb	Former (>28 Years)	Smoking Pack years:10	Untreated	Surgical Resection	No	Yes	Yes	0:LIVING		38.0
+sclc_ucologne_2015_S00829	63.0	Male	Caucasian	0	0	IIa	Former (>15 Years)	Smoking Pack years:25	Untreated	Surgical Resection	No	Yes	Yes	0:LIVING		84.0
+sclc_ucologne_2015_S00830	51.0	Female	Caucasian	1	0	IIb	Current	Smoking Pack years:70	Untreated	Surgical Resection	No	Yes	Yes	0:LIVING	39.0	58.0
+sclc_ucologne_2015_S00831	63.0	Male	Caucasian	X	1	IV	Former (>6 Months)	Smoking Pack years:30	Untreated	Surgical Resection	No	Yes	No	1:DECEASED	7.0	10.0
+sclc_ucologne_2015_S00832	70.0	Male	Caucasian	1	0	IIb	Current		Untreated	Surgical Resection	No	Yes	Yes	1:DECEASED	74.0	77.0
+sclc_ucologne_2015_S00833	77.0	Female	Caucasian	X	0	Ia	Current	Smoking Pack years:23	Untreated	Surgical Resection	No	No	No	1:DECEASED		23.0
+sclc_ucologne_2015_S00836	66.0	Female	Caucasian	0	0	Ia	Current	Smoking Pack years:40	Untreated	Surgical Resection	No			0:LIVING	37.0	90.0
+sclc_ucologne_2015_S00837	70.0	Female	Caucasian	0	0	Ia	Current	Smoking Pack years:70	Untreated	Surgical Resection	No	Yes	No	1:DECEASED	93.0	95.0
+sclc_ucologne_2015_S00838	73.0	Male	Caucasian	2	0	IIIb	Former (<6 Months)	Smoking Pack years:50	Untreated	Surgical Resection	No	Yes	No	1:DECEASED	10.0	20.0
+sclc_ucologne_2015_S00841	73.0	Male	Caucasian	2	0	IIIa	Former (<6 Months)		Untreated	Surgical Resection	No		No	1:DECEASED		0.0
+sclc_ucologne_2015_S00842	46.0	Male	Caucasian	3	0	IIIb	Former (<6 Months)		Untreated	Surgical Resection	No	Yes	Yes	1:DECEASED	22.0	37.0
+sclc_ucologne_2015_S00932	69.0	Male		0	0	I			Untreated	Surgical Resection						
+sclc_ucologne_2015_S00933	55.0	Female		1		III			Untreated	Surgical Resection						
+sclc_ucologne_2015_S00934	59.0	Female		1	1	IV			Untreated	Surgical Resection						
+sclc_ucologne_2015_S00935	57.0	Female		2	1	IV				Autopsy				1:DECEASED		3.0
+sclc_ucologne_2015_S00938	58.0	Female		3	1	IV			Relapse	Autopsy	Yes		Yes	1:DECEASED	7.0	15.0
+sclc_ucologne_2015_S00941	80.0	Female		2	1	IV	Former		Untreated	Autopsy				1:DECEASED		0.0
+sclc_ucologne_2015_S00944	64.0	Female		3	1	IV			Untreated	Autopsy	No	No		1:DECEASED		0.0
+sclc_ucologne_2015_S00945	83.0	Male		3	1	IV			Untreated	Autopsy	No	No		1:DECEASED		3.0
+sclc_ucologne_2015_S00947	71.0	Male		2	1	IV			Untreated	Autopsy	No	No		1:DECEASED		0.0
+sclc_ucologne_2015_S01020	33.0	Female		2	1	IV			Relapse	Autopsy	Yes		Yes	1:DECEASED		22.0
+sclc_ucologne_2015_S01022	78.0	Male		3	1	IV				Autopsy				1:DECEASED		
+sclc_ucologne_2015_S01023	70.0	Female		3	0	IIIb	Current		Untreated	Autopsy	No	No	No	1:DECEASED		0.0
+sclc_ucologne_2015_S01170	71.0	Male	Caucasian	0	0	Ia	Former	Smoking Pack years:60	Untreated	Surgical Resection	No	No	No	1:DECEASED	4.0	20.0
+sclc_ucologne_2015_S01242	76.0	Female	Caucasian	0	0	Ia	Current	Smoking Pack years:30	Untreated	Surgical Resection	No	No	No	1:DECEASED		12.0
+sclc_ucologne_2015_S01248	70.0	Male	Caucasian	0	0	Ib	Current		Untreated	Surgical Resection	No	No	No	1:DECEASED		28.0
+sclc_ucologne_2015_S01297	64.0	Female		0	0	IIb	Current		Untreated	Surgical Resection	No	Yes	Yes			
+sclc_ucologne_2015_S01366	68.0	Male	Caucasian	2	0	IIIb	Current		Untreated	Surgical Resection	No	Yes	Yes	1:DECEASED	12.0	22.0
+sclc_ucologne_2015_S01453	66.0	Male		0	x	Ib	Former		Untreated	Surgical Resection	No					
+sclc_ucologne_2015_S01494	58.0	Female	Caucasian	1	0	IIa	Former	Smoking Pack years:24	Untreated	Surgical Resection	No	Yes	Yes	0:LIVING	7.0	76.0
+sclc_ucologne_2015_S01512	64.0	Male	Caucasian	0	0	Ia	Current	Smoking Pack years:40	Untreated	Surgical Resection	No	Yes	Yes	0:LIVING		4.0
+sclc_ucologne_2015_S01516	62.0	Female	Caucasian	0	0	Ia	Former	Smoking Pack years:25	Untreated	Surgical Resection	No	Yes	No	1:DECEASED		17.0
+sclc_ucologne_2015_S01524	77.0	Male	Caucasian	0	0	Ia	Former	Smoking Pack years:25	Untreated	Surgical Resection	No	Yes	No	1:DECEASED		11.0
+sclc_ucologne_2015_S01542	74.0	Female	Caucasian	0	0	Ib	Current	Smoking Pack years:50	Untreated	Surgical Resection	No	No	No	0:LIVING		43.0
+sclc_ucologne_2015_S01556	71.0	Female					Former	Smoking Pack years:35	Untreated	Surgical Resection						
+sclc_ucologne_2015_S01563	53.0	Male							Untreated	Surgical Resection						
+sclc_ucologne_2015_S01578	76.0	Male	Caucasian	0	0	Ia	Former	Smoking Pack years:60	Untreated	Surgical Resection	No	Yes	No	1:DECEASED		34.0
+sclc_ucologne_2015_S01698	78.0	Male		0	0	Ia	Former		Untreated	Surgical Resection	No		No	0:LIVING		5.0
+sclc_ucologne_2015_S01728	65.0	Male		1	x	II	Former		Untreated	Surgical Resection	No	Yes	No	1:DECEASED	22.0	23.0
+sclc_ucologne_2015_S01792	74.0	Female		3	1	IV	Former		Untreated	Surgical Resection	No	Yes	Yes	1:DECEASED	5.0	10.0
+sclc_ucologne_2015_S01861	68.0	Male		2	x	IIIa	Former		Untreated	Surgical Resection	No	No	Yes	1:DECEASED		3.0
+sclc_ucologne_2015_S01864	52.0	Male		2	0	IIIa	Current		Untreated	Surgical Resection	No	Yes	Yes	1:DECEASED		29.0
+sclc_ucologne_2015_S01873	67.0	Male		0	0	Ib	Current		Untreated	Surgical Resection	No	No	No	1:DECEASED		46.0
+sclc_ucologne_2015_S02065	81.0	Male	Caucasian	0	0	Ib	Current		Untreated	Surgical Resection				1:DECEASED	7.0	8.0
+sclc_ucologne_2015_S02093	63.0	Female		1	x	IIIa	Current		Untreated	Surgical Resection	No	Yes	Yes	1:DECEASED		20.0
+sclc_ucologne_2015_S02120	63.0	Male		2	0	IIIa	Former		Untreated	Surgical Resection	Yes	Yes	Yes	0:LIVING	32.0	32.0
+sclc_ucologne_2015_S02139	63.0	Female		1	0	IIa	Current		Untreated	Surgical Resection	Yes			0:LIVING		46.0
+sclc_ucologne_2015_S02163	63.0	Male	Caucasian	1	0	IIIa	Former	Smoking Pack years:>10PY	Untreated	Surgical Resection	No	Yes	Yes	1:DECEASED	18.0	21.0
+sclc_ucologne_2015_S02194	64.0	Male		2	1b	IV	Current		Untreated	Pleural Effusion	No	Yes	Yes	1:DECEASED	3.0	5.0
+sclc_ucologne_2015_S02209	83.0	Male	Caucasian	0	0	IB	Current	Smoking Pack years:>10PY	Untreated	Surgical Resection	No	No	No	1:DECEASED	13.0	15.0
+sclc_ucologne_2015_S02219		Male	Caucasian	1	x	IIIa	Current		Untreated	Surgical Resection						
+sclc_ucologne_2015_S02234	76.0	Male	Caucasian	2	0	IIIa	Current	Smoking Pack years:60	Untreated	Surgical Resection	No	Yes	Yes	0:LIVING		22.0
+sclc_ucologne_2015_S02237	60.0	Female	Caucasian	2	0	IIIa	Current	Smoking Pack years:42	Untreated	Surgical Resection	No	Yes	No	1:DECEASED		18.0
+sclc_ucologne_2015_S02241	61.0	Male	Caucasian	1	0	IIIa	Current	Smoking Pack years:35	Untreated	Surgical Resection	No	No	No	1:DECEASED		2.0
+sclc_ucologne_2015_S02242	82.0	Male	Caucasian	0	0	Ib	Current	Smoking Pack years:90	Untreated	Surgical Resection	No	No	No	1:DECEASED		3.0
+sclc_ucologne_2015_S02243	64.0	Male	Caucasian	0	0	I	Current		Untreated	Surgical Resection	No	No	No	1:DECEASED		2.0
+sclc_ucologne_2015_S02244	53.0	Male	Caucasian	0	x	IV			Untreated	Surgical Resection				0:LIVING		76.0
+sclc_ucologne_2015_S02245	63.0	Female	Caucasian	0	0	Ia	Current	Smoking Pack years:20	Untreated	Surgical Resection	No	No	No	1:DECEASED		19.0
+sclc_ucologne_2015_S02246	68.0	Male	Caucasian	1	0	IIa	Former (>6 Months)	Smoking Pack years:50	Untreated	Surgical Resection	No	Yes	Yes	1:DECEASED	7.0	10.0
+sclc_ucologne_2015_S02248	67.0	Male	Caucasian	1	0	IIa	Former (>6 Months)	Smoking Pack years:88	Untreated	Surgical Resection	No	Yes	Yes	0:LIVING		31.0
+sclc_ucologne_2015_S02249	74.0	Male	Caucasian	2	0	IIIa	Former (<6 Months)	Smoking Pack years:80	Untreated	Surgical Resection	No			1:DECEASED		23.0
+sclc_ucologne_2015_S02255	64.0	Female	Caucasian	0	0	Ia	Current	Smoking Pack years:35	Untreated	Surgical Resection	No	Yes	Yes	0:LIVING		43.0
+sclc_ucologne_2015_S02256	61.0	Male	Caucasian	2	0	IIIa	Current	Smoking Pack years:50	Untreated	Surgical Resection	No	No	No	1:DECEASED	6.0	10.0
+sclc_ucologne_2015_S02273	58.0	Female	Caucasian		1	IV	Current	Smoking Pack years:80	Untreated	Surgical Resection	No	Yes	Yes	1:DECEASED		24.0
+sclc_ucologne_2015_S02274	60.0	Female	Caucasian	0	0	I	Former	Smoking Pack years:45	Untreated	Surgical Resection	No	Yes	Yes	1:DECEASED		27.0
+sclc_ucologne_2015_S02275	72.0	Male	Caucasian	0	x	IIb	Former	Smoking Pack years:40	Untreated	Surgical Resection	No	Yes	No	0:LIVING		104.0
+sclc_ucologne_2015_S02277	67.0	Female	Caucasian	0	x	Ib	Former	Smoking Pack years:50	Untreated	Surgical Resection	No	Yes	Yes	0:LIVING		74.0
+sclc_ucologne_2015_S02279	58.0	Male	Caucasian	1	x	IIb	Current	Smoking Pack years:50	Untreated	Surgical Resection	No			1:DECEASED	0.0	1.0
+sclc_ucologne_2015_S02284	66.0	Male		0	0	Ia	Former	Smoking Pack years:24	Untreated	Surgical Resection	No			1:DECEASED	10.0	19.0
+sclc_ucologne_2015_S02285	83.0	Male		2	1	IV	Former	Smoking Pack years:24	Untreated	Surgical Resection	No	Yes		1:DECEASED	10.0	32.0
+sclc_ucologne_2015_S02286	68.0	Male		2	0	IIIa	Former	Smoking Pack years:45	Untreated	Surgical Resection	No	Yes	Yes	1:DECEASED	18.0	30.0
+sclc_ucologne_2015_S02287	62.0	Male		0	0	Ia	Current	Smoking Pack years:21	Untreated	Surgical Resection	No	Yes		1:DECEASED	15.0	23.0
+sclc_ucologne_2015_S02288	71.0	Male		0	0	Ia	Former	Smoking Pack years:45	Untreated	Surgical Resection	No	Yes		1:DECEASED	9.0	17.0
+sclc_ucologne_2015_S02289	58.0	Female		2	0	IIIa	Former	Smoking Pack years:21	Untreated	Surgical Resection	No	Yes	Yes	0:LIVING		79.0
+sclc_ucologne_2015_S02290	61.0	Male		0	0	Ia	Current	Smoking Pack years:90	Untreated	Surgical Resection	No	Yes	Yes	1:DECEASED		39.0
+sclc_ucologne_2015_S02291	65.0	Female		0	0	Ib	Former	Smoking Pack years:60	Untreated	Surgical Resection	No	Yes	Yes	0:LIVING		42.0
+sclc_ucologne_2015_S02292	71.0	Male		0	0	IIb	Former	Smoking Pack years:40	Untreated	Surgical Resection	No			1:DECEASED	4.0	6.0
+sclc_ucologne_2015_S02293	61.0	Male		2	0	IIa	Current	Smoking Pack years:50	Untreated	Surgical Resection	No		Yes	1:DECEASED		15.0
+sclc_ucologne_2015_S02294	61.0	Female		0	0	Ib	Current	Smoking Pack years:10	Untreated	Surgical Resection	No	Yes		1:DECEASED		5.0
+sclc_ucologne_2015_S02295	53.0	Male		2	1	IV	Current	Smoking Pack years:35	Untreated	Surgical Resection	No	Yes		1:DECEASED		7.0
+sclc_ucologne_2015_S02296	70.0	Male		0	0	Ia	Current	Smoking Pack years:50	Untreated	Surgical Resection	No	Yes	Yes	1:DECEASED		58.0
+sclc_ucologne_2015_S02297	68.0	Male		0	0	Ia	Former	Smoking Pack years:30	Untreated	Surgical Resection	No	Yes	Yes	0:LIVING		164.0
+sclc_ucologne_2015_S02298	58.0	Male		0	0	Ib	Never		Untreated	Surgical Resection	No	Yes		1:DECEASED	2.0	3.0
+sclc_ucologne_2015_S02299	51.0	Male		0	0	Ib	Current	Smoking Pack years:50	Untreated	Surgical Resection	No	Yes	Yes	0:LIVING		65.0
+sclc_ucologne_2015_S02322	70.0	Female	Caucasian	0	0	IIb	Former	Smoking Pack years:55	Untreated	Surgical Resection	No	Yes	Yes	0:LIVING	13.0	32.0
+sclc_ucologne_2015_S02328	63.0	Male	Caucasian	2	0	IIIb	Current	Smoking Pack years:80	Untreated	Surgical Resection	No	Yes	Yes	0:LIVING		34.0
+sclc_ucologne_2015_S02342	75.0	Female	Asian			IIa	Never	Smoking Pack years:0	Untreated	Surgical Resection	No	No	No	0:LIVING		72.0
+sclc_ucologne_2015_S02344	70.0	Female	Asian			IIIb	Current	Smoking Pack years:50	Untreated	Surgical Resection	No	No	No	1:DECEASED	27.0	27.0
+sclc_ucologne_2015_S02347	67.0	Female	Asian			IIa	Never	Smoking Pack years:0	Untreated	Surgical Resection	No	Yes	No	0:LIVING		69.0
+sclc_ucologne_2015_S02348	66.0	Male	Asian			IIIa	Former	Smoking Pack years:45	Untreated	Surgical Resection	No	Yes	No	1:DECEASED	20.0	20.0
+sclc_ucologne_2015_S02350	76.0	Male	Asian			Ia	Former	Smoking Pack years:15	Untreated	Surgical Resection	No	No	No	1:DECEASED	27.0	27.0
+sclc_ucologne_2015_S02351	57.0	Male	Asian			Ib	Former	Smoking Pack years:78	Untreated	Surgical Resection	No	No	No	0:LIVING		115.0
+sclc_ucologne_2015_S02352	67.0	Male	Asian			IIb	Former	Smoking Pack years:65	Untreated	Surgical Resection	No	No	No	1:DECEASED	11.0	11.0
+sclc_ucologne_2015_S02353	47.0	Male	Asian			IIIa	Former		Untreated	Surgical Resection	No	Yes	No	1:DECEASED	48.0	48.0
+sclc_ucologne_2015_S02354	70.0	Male	Asian			IIIa	Former	Smoking Pack years:40	Untreated	Surgical Resection	No	No	No	0:LIVING		106.0
+sclc_ucologne_2015_S02355	68.0	Male	Asian	2	0	IIIa	Former	Smoking Pack years:48	Untreated	Surgical Resection	No	Yes	No	0:LIVING		55.0
+sclc_ucologne_2015_S02360	57.0	Male	Caucasian	0	0	Ia	Former		Untreated	Surgical Resection	No	No	No	0:LIVING	11.0	19.0
+sclc_ucologne_2015_S02375	75.0	Female		0	x	Ia	Current	Smoking Pack years:60	Untreated	Surgical Resection	No	Yes	Yes	0:LIVING		19.0
+sclc_ucologne_2015_S02376	57.0	Female		0	0	Ia	Current	Smoking Pack years:43	Untreated	Surgical Resection	No	No	No	0:LIVING		13.0
+sclc_ucologne_2015_S02378	70.0	Female		0	0	Ia	Current	Smoking Pack years:100	Untreated	Surgical Resection	No	Yes	Yes	0:LIVING		34.0
+sclc_ucologne_2015_S02382	59.0	Male	Caucasian	3	1a	IV	Current	Smoking Pack years:40	Relapse	Biopsy	No	Yes	Yes	1:DECEASED	5.0	16.0
+sclc_ucologne_2015_S02384	69.0	Female	Caucasian	1	1b	IV	Current	Smoking Pack years:40	Relapse	Biopsy	No	Yes	No	1:DECEASED	5.0	13.0
+sclc_ucologne_2015_S02385	69.0	Female	Caucasian	3	1a	IV	Former	Smoking Pack years:40	Relapse	Biopsy	No	Yes	Yes	1:DECEASED	10.0	12.0
+sclc_ucologne_2015_S02397	48.0	Female	Asian	0	0	Ia	Former	Smoking Pack years:0.75	Untreated	Surgical Resection	Yes	No	No	0:LIVING		4.0
+sclc_ucologne_2015_S02398	62.0	Male	Asian	1	0	IIa	Current	Smoking Pack years:20	Untreated	Surgical Resection	No	Yes	No	0:LIVING		81.0
+sclc_ucologne_2015_S02400	44.0	Male	Asian	1	0	IIa	Former	Smoking Pack years:18	Untreated	Surgical Resection	No	No	No	1:DECEASED		0.0
+sclc_ucologne_2015_S02401	72.0	Male	Asian	2	0	IIIa	Current	Smoking Pack years:55	Untreated	Surgical Resection	No	No	No	0:LIVING		1.0
+sclc_ucologne_2015_S02402	57.0	Male	Asian	0	0	Ib	Current	Smoking Pack years:40	Untreated	Surgical Resection	No	Yes	No	0:LIVING		47.0
+sclc_ucologne_2015_S02403	76.0	Male	Asian	0	0	IIa	Current	Smoking Pack years:50	Untreated	Surgical Resection	No	No	No	0:LIVING		7.0
+sclc_ucologne_2015_S02404	75.0	Male	Asian	0	0	IIa	Current	Smoking Pack years:50	Untreated	Surgical Resection	No	No	No	1:DECEASED		1.0

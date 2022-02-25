@@ -1,0 +1,83 @@
+---
+title: "Small Cell Lung Cancer - U Cologne 2015 - Data Cleaning"
+author: "Toby Law"
+date: "2/21/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(sqldf)
+library(dplyr)
+library(tidyr)
+library(tibble)
+library(tidyverse)
+```
+
+```{r Importing data}
+patient_clinical <- read.csv("data_clinical_patient.txt", sep = "\t")
+sample_clinical <- read.csv("data_clinical_sample.txt", sep = "\t")
+mrna_seq_rpkm_z <- read.csv("data_mrna_seq_rpkm_zscores_ref_all_samples.txt", sep = "\t")
+```
+
+```{r TNM staging vs mRNA expression levels}
+stage_info_1 <- 
+  sqldf("SELECT `X.Patient.Identifier`, `N.Stage`, `M.Stage`
+        FROM patient_clinical")
+
+stage_info_2 <- 
+  sqldf("SELECT `X.Patient.Identifier`, `T.Stage`
+        FROM sample_clinical")
+
+stage_info <- 
+  sqldf("SELECT * FROM stage_info_1 AS p
+        INNER JOIN
+        (SELECT * FROM stage_info_2) AS s
+        ON p.`X.Patient.Identifier` = s.`X.Patient.Identifier`") %>%
+  select(-4)
+
+names(stage_info) <- unlist(stage_info[4,])
+
+# select patients with all N, M and T stage data
+stage_info_clean <- stage_info %>%
+  filter(!row_number() %in% c(1:4)) %>%
+  filter(!(N_STAGE == "" | M_STAGE == "" | T_STAGE == ""))
+
+mrna_data <- mrna_seq_rpkm_z %>%
+  select(-2) %>%
+  t() %>%
+  as.data.frame()
+
+names(mrna_data) <- unlist(mrna_data[1,])
+
+
+mrna_data_clean <- mrna_data[-1,] %>%
+  discard(~all(is.na(.) | . == "")) %>%
+  rownames_to_column("PATIENT_ID")
+
+# Merge mRNA expression levels data to tumor/cancer stage data
+mrna_stage_df <- merge(mrna_data_clean,
+                       stage_info_clean,
+                       by.x = "PATIENT_ID",
+                       by.y = "PATIENT_ID")
+
+# Simplify the stage symbols and convert to numeric
+mrna_stage_simple_df <- mrna_stage_df %>%
+  mutate(N_STAGE = case_when(N_STAGE %in% c("X", "x", "0") ~ 0,
+                             N_STAGE == "1" ~ 1,
+                             N_STAGE == "2" ~ 2, 
+                             N_STAGE == "3" ~ 3)) %>%
+  mutate(M_STAGE = case_when(M_STAGE %in% c("X", "x", "0") ~ 0,
+                             M_STAGE %in% c("1", "1a", "1b") ~ 1,
+                             M_STAGE == "2" ~ 2, 
+                             M_STAGE == "3" ~ 3)) %>%
+  mutate(T_STAGE = case_when(T_STAGE %in% c("X", "x", "0") ~ 0,
+                             T_STAGE %in% c("1", "1a", "1b") ~ 1,
+                             T_STAGE %in% c("2", "2a", "2b") ~ 2, 
+                             T_STAGE == "3" ~ 3,
+                             T_STAGE == "4" ~ 4))
+                                          
+write.csv(mrna_stage_simple_df, "mRNA_levels_cancer_stage.txt")
+  
+```
+

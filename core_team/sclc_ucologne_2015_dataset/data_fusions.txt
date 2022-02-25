@@ -1,0 +1,51 @@
+Hugo_Symbol	Entrez_Gene_Id	Center	Tumor_Sample_Barcode	Fusion	DNA_support	RNA_support	Method	Frame
+KDM2A		ucologne	sclc_ucologne_2015_S02297	KDM2A-GLB1L2	Unknown	Unknown	Unknown	in-frame fusion
+ELMOD1		ucologne	sclc_ucologne_2015_S02297	ELMOD1-HPS3	Unknown	Unknown	Unknown	out of frame
+MTCH2		ucologne	sclc_ucologne_2015_S02297	MTCH2-ODZ4	Unknown	Unknown	Unknown	in-frame fusion
+TM7SF2		ucologne	sclc_ucologne_2015_S02297	TM7SF2)-PRRG4	Unknown	Unknown	Unknown	out of frame
+PPME1		ucologne	sclc_ucologne_2015_S02297	PPME1-FYCO1	Unknown	Unknown	Unknown	in-frame fusion
+TAF1D		ucologne	sclc_ucologne_2015_S02297	TAF1D-PIK3CA	Unknown	Unknown	Unknown	in-frame fusion
+SETD5		ucologne	sclc_ucologne_2015_S02297	SETD5-NAALAD2	Unknown	Unknown	Unknown	out of frame
+SOX2OT		ucologne	sclc_ucologne_2015_S02297	SOX2OT-ATL3	Unknown	Unknown	Unknown	out of frame
+B3GALNT1		ucologne	sclc_ucologne_2015_S02297	B3GALNT1-C11orf92	Unknown	Unknown	Unknown	noncoding RNA
+MYO7A		ucologne	sclc_ucologne_2015_S02297	MYO7A-PSMC3	Unknown	Unknown	Unknown	in-frame fusion
+EI24		ucologne	sclc_ucologne_2015_S02297	EI24-PVRL1	Unknown	Unknown	Unknown	out of frame
+TXNRD3		ucologne	sclc_ucologne_2015_S02297	TXNRD3-PODXL2	Unknown	Unknown	Unknown	in-frame fusion
+LOC728588		ucologne	sclc_ucologne_2015_S02297	LOC728588-KLHL18	Unknown	Unknown	Unknown	in-frame fusion
+SOX2OT		ucologne	sclc_ucologne_2015_S02297	SOX2OT-ST14	Unknown	Unknown	Unknown	out of frame
+RSF1		ucologne	sclc_ucologne_2015_S02297	RSF1-CNTN4	Unknown	Unknown	Unknown	out of frame
+ABI3BP		ucologne	sclc_ucologne_2015_S02297	ABI3BP-EXT2	Unknown	Unknown	Unknown	out of frame
+GANAB		ucologne	sclc_ucologne_2015_S02297	GANAB-STXBP5L	Unknown	Unknown	Unknown	out of frame
+SLN		ucologne	sclc_ucologne_2015_S02297	SLN-CADM2	Unknown	Unknown	Unknown	out of frame
+VPRBP		ucologne	sclc_ucologne_2015_S02297	VPRBP-DBR1	Unknown	Unknown	Unknown	out of frame
+TBL1XR1		ucologne	sclc_ucologne_2015_S02297	TBL1XR1-UEVLD	Unknown	Unknown	Unknown	out of frame
+MBNL1		ucologne	sclc_ucologne_2015_S02297	MBNL1-HIPK3	Unknown	Unknown	Unknown	out of frame
+ECT2		ucologne	sclc_ucologne_2015_S02297	ECT2-CSTF3	Unknown	Unknown	Unknown	out of frame
+DVL3		ucologne	sclc_ucologne_2015_S02353	DVL3-SCN11A	Unknown	Unknown	Unknown	out of frame
+TEAD1		ucologne	sclc_ucologne_2015_S02353	TEAD1-ATP5L	Unknown	Unknown	Unknown	in-frame fusion
+USP19		ucologne	sclc_ucologne_2015_S02353	USP19-VEPH1	Unknown	Unknown	Unknown	in-frame fusion
+CCKBR		ucologne	sclc_ucologne_2015_S02353	CCKBR-NGLY1	Unknown	Unknown	Unknown	in-frame fusion
+DUSP8		ucologne	sclc_ucologne_2015_S02353	DUSP8-MYEOV	Unknown	Unknown	Unknown	out of frame
+PRCP		ucologne	sclc_ucologne_2015_S02353	PRCP-CTDSPL	Unknown	Unknown	Unknown	in-frame fusion
+ZCWPW2		ucologne	sclc_ucologne_2015_S02353	ZCWPW2-PPP4R2	Unknown	Unknown	Unknown	out of frame
+ACVR2B		ucologne	sclc_ucologne_2015_S02353	ACVR2B-KRTAP5-2	Unknown	Unknown	Unknown	out of frame
+TPH1		ucologne	sclc_ucologne_2015_S02353	TPH1-ARL6IP5	Unknown	Unknown	Unknown	out of frame
+STXBP5L		ucologne	sclc_ucologne_2015_S02353	STXBP5L-STAG1	Unknown	Unknown	Unknown	out of frame
+ZNF660		ucologne	sclc_ucologne_2015_S02353	ZNF660-ARL6	Unknown	Unknown	Unknown	out of frame
+MRPL49		ucologne	sclc_ucologne_2015_S02353	MRPL49-SLC25A45	Unknown	Unknown	Unknown	out of frame
+HSD17B12		ucologne	sclc_ucologne_2015_S02353	HSD17B12-MYO7A	Unknown	Unknown	Unknown	in-frame fusion
+C3orf70		ucologne	sclc_ucologne_2015_S02353	C3orf70-LRRC15	Unknown	Unknown	Unknown	out of frame
+EFHB		ucologne	sclc_ucologne_2015_S02353	EFHB-TYR	Unknown	Unknown	Unknown	in-frame fusion
+LRCH3		ucologne	sclc_ucologne_2015_S02353	LRCH3-BRSK2	Unknown	Unknown	Unknown	in-frame fusion
+ALKBH3		ucologne	sclc_ucologne_2015_S02353	ALKBH3-TCIRG1	Unknown	Unknown	Unknown	in-frame fusion
+TBCCD1		ucologne	sclc_ucologne_2015_S02353	TBCCD1-PAFAH1B2	Unknown	Unknown	Unknown	out of frame
+SACM1L		ucologne	sclc_ucologne_2015_S02353	SACM1L-MTMR2	Unknown	Unknown	Unknown	out of frame
+NUP210		ucologne	sclc_ucologne_2015_S02353	NUP210-RSRC1	Unknown	Unknown	Unknown	out of frame
+SASH1		ucologne	sclc_ucologne_2015_S02353	SASH1-SAMD5	Unknown	Unknown	Unknown	in-frame fusion
+ZNF621		ucologne	sclc_ucologne_2015_S02353	ZNF621-PIK3R4	Unknown	Unknown	Unknown	out of frame
+PACS1		ucologne	sclc_ucologne_2015_S02353	PACS1-KDM2A	Unknown	Unknown	Unknown	in-frame fusion
+PAK1		ucologne	sclc_ucologne_2015_S02353	PAK1-FAT3	Unknown	Unknown	Unknown	out of frame
+MYL3		ucologne	sclc_ucologne_2015_S02353	MYL3-NSUN3	Unknown	Unknown	Unknown	out of frame
+PDE12		ucologne	sclc_ucologne_2015_S02353	PDE12-PPFIBP2	Unknown	Unknown	Unknown	out of frame
+LOC100130987		ucologne	sclc_ucologne_2015_S02353	LOC100130987-TMEM41A	Unknown	Unknown	Unknown	out of frame
+ODZ4		ucologne	sclc_ucologne_2015_S02353	ODZ4-DLEC1	Unknown	Unknown	Unknown	out of frame
