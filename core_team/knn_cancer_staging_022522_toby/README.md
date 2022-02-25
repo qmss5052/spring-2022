@@ -10,5 +10,5 @@ Procedure:
 4. Basic KNN classifier training and testing in [Classification_for_TMN_stages.ipynb](./Classification_for_TMN_stages.ipynb)
 
 Conclusions: 
-- Simple KNN classifier seems be able to determine whether cancer has metastasized (M staging), based on mRNA expression profile.
+- Simple KNN classifier seems able to determine whether cancer has metastasized (M staging), based on mRNA expression profile.
 - However, performance is not so great for primary tumor and lymph node (T and N) staging.  
